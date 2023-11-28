@@ -5,8 +5,16 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  height: 100vh;
-  background: linear-gradient(184deg,#8754ff,#8E2DE2);
+  
+  
+    margin: 0; /* Remove default margin provided by browsers */
+    height: 100vh; /* Viewport height to ensure it takes full height of the viewport */
+    background-image: url('Oregon_Pacific_Ocean_beach_sunrise_sunset_sea_3840x2400.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  
 }
 .start-screen,
 .score-container {
@@ -97,15 +105,15 @@ button {
 }
 .incorrect {
   background-color: #ffdde0;
-  color: #d32f2f;
-  border-color: #d32f2f;
+  color: #a10303;
+  border-color: #c32727;
 }
 .correct {
   background-color: #e7f6d5;
-  color: #689f38;
+  color: #76f209;
   border-color: #689f38;
 }
 #user-score {
   font-size: 1.5em;
-  color: #ffffff;
+  color: #141414;
 }
